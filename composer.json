@@ -1,0 +1,18 @@
+{
+    "name": "Martin/modern_php",
+    "authors": [
+        {
+            "name": "martin",
+            "email": "mding@wanvogfurniture.com"
+        }
+    ],
+    "require": {
+        "monolog/monolog": "^1.23",
+        "guzzlehttp/guzzle": "^6.3"
+    },
+    "autoload":{
+        "psr-0": {
+            "Martin\\ModernPhp":"src/"
+        }
+    }
+}
